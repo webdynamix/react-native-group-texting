@@ -1,6 +1,6 @@
 # React-Native Group Texting Mobile App
 
-This mobile app is an utility app to create and manage groups of contacts. It then let's a user select a contacts from a group and send a text message via SMS using the devices native messenger.
+This mobile app is an utility app to create and manage groups of contacts. It then let's a user select contacts from a group and send a text message via SMS using the devices native messenger.
 
 
 ## Setup

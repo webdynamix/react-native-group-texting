@@ -12,6 +12,4 @@ This mobile app is an utility app to create and manage groups of contacts. It th
 4. Run `react-native run-ios` to run the app on iOS
 
 ## Screens
-![SCREENSHOT](/screenshots/1.PNG?raw=true "")
-![SCREENSHOT](/screenshots/1.PNG?raw=true "")
-![SCREENSHOT](/screenshots/1.PNG?raw=true "")
+<img src="/screenshots/1.PNG" width="500">

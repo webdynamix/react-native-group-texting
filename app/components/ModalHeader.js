@@ -7,9 +7,9 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-import { CloseIcon, CheckCTAIcon } from '../helpers/Icons';
-import { red, orange, white } from './colors';
-import { STATUSBAR_HEIGHT, APPBAR_HEIGHT, TITLE_OFFSET, HEADER_TEXT_STYLE } from './constants';
+import { red, orange, white } from '../constants/colors';
+import { STATUSBAR_HEIGHT, APPBAR_HEIGHT, TITLE_OFFSET, HEADER_TEXT_STYLE } from '../constants';
+import { CloseIcon, CheckCTAIcon } from './Icons';
 
 
 let styles = StyleSheet.create({

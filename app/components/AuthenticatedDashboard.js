@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 
 import AuthButton from './AuthButton';
-import { Tabs } from '../navigators/router';
+import { Tabs } from '../navigators/TabsNavigator';
 
 const AuthenticatedDashboard = ({ isLoggedIn, dispatch }) => {
   if (!isLoggedIn) {

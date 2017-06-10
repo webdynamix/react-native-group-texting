@@ -1,12 +1,16 @@
-// this file is excluded from commit.
-export const firebaseConfig = {
-  apiKey: "AIzaSyB5S8knr0VB6pwAotNj7g4JCMQH463emhw",
-  authDomain: "oneapp-3d987.firebaseapp.com",
-  databaseURL: "https://oneapp-3d987.firebaseio.com",
-  projectId: "oneapp-3d987",
-  storageBucket: "oneapp-3d987.appspot.com",
-};
+import { Platform } from 'react-native';
 
-export const facebookConfig = {
-  readPermissions: ["email", "public_profile"],
+export const APPBAR_HEIGHT = Platform.OS === 'ios' ? 44 : 56;
+export const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 20 : 0;
+export const TITLE_OFFSET = Platform.OS === 'ios' ? 70 : 40;
+
+export const HEADER_TEXT_STYLE = {
+  fontSize: Platform.OS === 'ios' ? 17 : 18,
+  fontWeight: Platform.OS === 'ios' ? '600' : '500',
+  textAlign: Platform.OS === 'ios' ? 'center' : 'left',
+  top: 10,
 }
+
+export const LIST_STYLE = {
+  rowHeight: 40,
+};

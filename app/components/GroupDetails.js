@@ -18,11 +18,11 @@ import Swipeout from 'react-native-swipeout'
 import Search from 'react-native-search-box';
 import Contacts from 'react-native-unified-contacts';
 
-import { shadedOrange, red, orange, white, blue, disabledText } from '../helpers/colors';
-import { DeleteIcon, AddIcon, AddContactsIcon, PhoneTypeIcon } from '../helpers/Icons';
+import { shadedOrange, red, orange, white, blue, disabledText } from '../constants/colors';
 import { getContacts, getObjectFromArray, getObjectsIds } from '../helpers/library';
-import Separator from '../helpers/Separator';
-import ModalHeader from '../helpers/ModalHeader';
+import { DeleteIcon, AddIcon, AddContactsIcon, PhoneTypeIcon } from './Icons';
+import Separator from './Separator';
+import ModalHeader from './ModalHeader';
 import ContactsList from './ContactsList';
 
 class Group extends Component {

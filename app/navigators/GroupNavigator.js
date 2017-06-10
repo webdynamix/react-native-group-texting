@@ -2,14 +2,14 @@ import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { addNavigationHelpers, StackNavigator } from 'react-navigation';
 
-import { orange, white } from '../helpers/colors';
+import { orange, white } from '../constants/colors';
 
-import GroupsScreen from '../components/Messaging';
-import GroupDetailsScreen from '../components/GroupDetails';
+import Groups from '../components/Groups';
+import GroupDetails from '../components/GroupDetails';
 
 export const AppNavigator = StackNavigator({
-  Main: { screen: GroupsScreen },
-  ViewGroup: { screen: GroupDetailsScreen },
+  Main: { screen: Groups },
+  ViewGroup: { screen: GroupDetails },
 }, {
   navigationOptions: {
     headerStyle: { backgroundColor: orange },

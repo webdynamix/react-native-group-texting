@@ -44,8 +44,30 @@
 		4D1A45431ED25D1B00EA215F /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1A453F1ED25D1B00EA215F /* FBSDKShareKit.framework */; };
 		4D5EEF601ECE6A2D007EDA51 /* RNUnifiedContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EEF5E1ECE6A2D007EDA51 /* RNUnifiedContacts.swift */; };
 		4D5EEF611ECE6A2D007EDA51 /* RNUnifiedContactsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5EEF5F1ECE6A2D007EDA51 /* RNUnifiedContactsBridge.m */; };
+		4D7641E81EEB297700197A21 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7641E71EEB297700197A21 /* NotificationCenter.framework */; };
+		4D7641EB1EEB297700197A21 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7641EA1EEB297700197A21 /* TodayViewController.swift */; };
+		4D7642171EEB2B5600197A21 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7641E71EEB297700197A21 /* NotificationCenter.framework */; };
+		4D7642291EEB8CF300197A21 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		4D76422A1EEB8D0500197A21 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		4D76422B1EEB8D1000197A21 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		4D76422C1EEB8D1900197A21 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		4D76422D1EEB8D2100197A21 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		4D76422E1EEB8D4500197A21 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		4D76422F1EEB8D4F00197A21 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		4D7642301EEB8D5600197A21 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		4D7642311EEB8D5B00197A21 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		4D7642321EEB8D5F00197A21 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		4D7642331EEB8D6800197A21 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		4D7642451EEB9FCE00197A21 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAB73521ED2648F00995C4B /* libRNVectorIcons.a */; };
+		4D9CDDC51EEC4CFB00976554 /* TodayWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D7642161EEB2B5600197A21 /* TodayWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D9CDDC71EEC4D7000976554 /* TodayWidget.appex in Resources */ = {isa = PBXBuildFile; fileRef = 4D7642161EEB2B5600197A21 /* TodayWidget.appex */; };
+		4D9CDDF51EEC516600976554 /* OneTextApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 13B07F961A680F5B00A75B9A /* OneTextApp.app */; };
 		4DC41D011ECF7321003047FA /* RNMailCompose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC41CFF1ECF7321003047FA /* RNMailCompose.swift */; };
 		4DC41D021ECF7321003047FA /* RNMailComposeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC41D001ECF7321003047FA /* RNMailComposeBridge.m */; };
+		4DE403691EEBAAF5001570D4 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE403681EEBAAF5001570D4 /* TodayViewController.m */; };
+		4DE403D21EEBB363001570D4 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7641E71EEB297700197A21 /* NotificationCenter.framework */; };
+		4DE403D61EEBB363001570D4 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE403D51EEBB363001570D4 /* TodayViewController.m */; };
+		4DE403D91EEBB363001570D4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE403D71EEBB363001570D4 /* MainInterface.storyboard */; };
 		5A2CD088D73C4114AC9B5C47 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B74A26E2EFD421FABAFC3C2 /* Ionicons.ttf */; };
 		5D349B953DBE4BCBB73686E6 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C152DF209D4A4D2BA2F9509E /* Octicons.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
@@ -237,6 +259,13 @@
 			remoteGlobalIDString = 9350E0F11CE3B0920041D815;
 			remoteInfo = RCTFBSDK;
 		};
+		4DE4039E1EEBAC10001570D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7642151EEB2B5600197A21;
+			remoteInfo = TodayWidget;
+		};
 		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
@@ -266,6 +295,20 @@
 			remoteInfo = RCTText;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DE403A01EEBAC10001570D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4D9CDDC51EEC4CFB00976554 /* TodayWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
@@ -297,9 +340,27 @@
 		4D5EEF5D1ECE6A2D007EDA51 /* RNUnifiedContacts-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNUnifiedContacts-Bridging-Header.h"; sourceTree = "<group>"; };
 		4D5EEF5E1ECE6A2D007EDA51 /* RNUnifiedContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNUnifiedContacts.swift; sourceTree = "<group>"; };
 		4D5EEF5F1ECE6A2D007EDA51 /* RNUnifiedContactsBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUnifiedContactsBridge.m; sourceTree = "<group>"; };
+		4D619C0E1EEBA3F800408FF8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		4D619C0F1EEBA3F800408FF8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4D619C101EEBA3F800408FF8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		4D619C111EEBA3F800408FF8 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		4D7641E61EEB297700197A21 /* Text a group.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Text a group.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7641E71EEB297700197A21 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4D7641EA1EEB297700197A21 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		4D7641EF1EEB297700197A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7642161EEB2B5600197A21 /* TodayWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7642191EEB2B5600197A21 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TodayViewController.h; path = TodayWidget/TodayViewController.h; sourceTree = "<group>"; };
+		4D76421A1EEB2B5600197A21 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TodayViewController.m; path = TodayWidget/TodayViewController.m; sourceTree = "<group>"; };
+		4D76421F1EEB2B5600197A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = TodayWidget/Info.plist; sourceTree = "<group>"; };
 		4DC41CFE1ECF7321003047FA /* RNMailCompose-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNMailCompose-Bridging-Header.h"; sourceTree = "<group>"; };
 		4DC41CFF1ECF7321003047FA /* RNMailCompose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNMailCompose.swift; sourceTree = "<group>"; };
 		4DC41D001ECF7321003047FA /* RNMailComposeBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMailComposeBridge.m; sourceTree = "<group>"; };
+		4DE403681EEBAAF5001570D4 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TodayViewController.m; path = TodayWidget/TodayViewController.m; sourceTree = "<group>"; };
+		4DE403D11EEBB363001570D4 /* TodayWidgetDos.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayWidgetDos.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE403D41EEBB363001570D4 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		4DE403D51EEBB363001570D4 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		4DE403D81EEBB363001570D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4DE403DA1EEBB363001570D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59F6777A51B9400AB2A312A8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		6D6E1C8063EE45F9B5C0109D /* libRCTFBSDK.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTFBSDK.a; sourceTree = "<group>"; };
@@ -375,6 +436,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7641E31EEB297700197A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7641E81EEB297700197A21 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7642131EEB2B5600197A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7642451EEB9FCE00197A21 /* libRNVectorIcons.a in Frameworks */,
+				4D7642171EEB2B5600197A21 /* NotificationCenter.framework in Frameworks */,
+				4D7642291EEB8CF300197A21 /* libReact.a in Frameworks */,
+				4D76422A1EEB8D0500197A21 /* libRCTAnimation.a in Frameworks */,
+				4D76422B1EEB8D1000197A21 /* libRCTActionSheet.a in Frameworks */,
+				4D76422C1EEB8D1900197A21 /* libRCTGeolocation.a in Frameworks */,
+				4D76422D1EEB8D2100197A21 /* libRCTImage.a in Frameworks */,
+				4D76422E1EEB8D4500197A21 /* libRCTLinking.a in Frameworks */,
+				4D76422F1EEB8D4F00197A21 /* libRCTNetwork.a in Frameworks */,
+				4D7642301EEB8D5600197A21 /* libRCTSettings.a in Frameworks */,
+				4D7642311EEB8D5B00197A21 /* libRCTText.a in Frameworks */,
+				4D7642321EEB8D5F00197A21 /* libRCTVibration.a in Frameworks */,
+				4D7642331EEB8D6800197A21 /* libRCTWebSocket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE403CE1EEBB363001570D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE403D21EEBB363001570D4 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,10 +588,15 @@
 		4D1A455E1ED25D2C00EA215F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D619C0E1EEBA3F800408FF8 /* Bolts.framework */,
+				4D619C0F1EEBA3F800408FF8 /* FBSDKCoreKit.framework */,
+				4D619C101EEBA3F800408FF8 /* FBSDKLoginKit.framework */,
+				4D619C111EEBA3F800408FF8 /* FBSDKShareKit.framework */,
 				4D1A453C1ED25D1B00EA215F /* Bolts.framework */,
 				4D1A453D1ED25D1B00EA215F /* FBSDKCoreKit.framework */,
 				4D1A453E1ED25D1B00EA215F /* FBSDKLoginKit.framework */,
 				4D1A453F1ED25D1B00EA215F /* FBSDKShareKit.framework */,
+				4D7641E71EEB297700197A21 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -508,6 +610,26 @@
 			);
 			name = RNUnifiedContacts;
 			path = "../node_modules/react-native-unified-contacts/RNUnifiedContacts";
+			sourceTree = "<group>";
+		};
+		4D7641E91EEB297700197A21 /* Text a group */ = {
+			isa = PBXGroup;
+			children = (
+				4D7641EA1EEB297700197A21 /* TodayViewController.swift */,
+				4D7641EF1EEB297700197A21 /* Info.plist */,
+			);
+			path = "Text a group";
+			sourceTree = "<group>";
+		};
+		4D7642181EEB2B5600197A21 /* TodayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4D7642191EEB2B5600197A21 /* TodayViewController.h */,
+				4D76421A1EEB2B5600197A21 /* TodayViewController.m */,
+				4D76421F1EEB2B5600197A21 /* Info.plist */,
+			);
+			name = TodayWidget;
+			path = "Text Group";
 			sourceTree = "<group>";
 		};
 		4DAB73341ED2648F00995C4B /* Products */ = {
@@ -535,6 +657,17 @@
 				4DDFB2771ED25C5900D43370 /* libRCTFBSDK.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4DE403D31EEBB363001570D4 /* TodayWidgetDos */ = {
+			isa = PBXGroup;
+			children = (
+				4DE403D41EEBB363001570D4 /* TodayViewController.h */,
+				4DE403D51EEBB363001570D4 /* TodayViewController.m */,
+				4DE403D71EEBB363001570D4 /* MainInterface.storyboard */,
+				4DE403DA1EEBB363001570D4 /* Info.plist */,
+			);
+			path = TodayWidgetDos;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -587,7 +720,11 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				4DE403681EEBAAF5001570D4 /* TodayViewController.m */,
 				AC9056121EB68D6800B291A2 /* OneTextApp-Bridging-Header.h */,
+				4D7641E91EEB297700197A21 /* Text a group */,
+				4D7642181EEB2B5600197A21 /* TodayWidget */,
+				4DE403D31EEBB363001570D4 /* TodayWidgetDos */,
 				4D1A455E1ED25D2C00EA215F /* Frameworks */,
 				4DC41CFD1ECF7321003047FA /* RNMailCompose */,
 				4D5EEF5C1ECE6A2D007EDA51 /* RNUnifiedContacts */,
@@ -609,6 +746,9 @@
 				00E356EE1AD99517003FC87E /* OneTextAppTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* OneTextApp-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* OneTextApp-tvOSTests.xctest */,
+				4D7641E61EEB297700197A21 /* Text a group.appex */,
+				4D7642161EEB2B5600197A21 /* TodayWidget.appex */,
+				4DE403D11EEBB363001570D4 /* TodayWidgetDos.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -669,11 +809,13 @@
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
-				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				4D7642431EEB9ABA00197A21 /* Bundle React Native code and images */,
+				4DE403A01EEBAC10001570D4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4DE4039F1EEBAC10001570D4 /* PBXTargetDependency */,
 			);
 			name = OneTextApp;
 			productName = "Hello World";
@@ -716,12 +858,65 @@
 			productReference = 2D02E4901E0B4A5D006451C7 /* OneTextApp-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4D7641E51EEB297700197A21 /* Text a group */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7642101EEB297700197A21 /* Build configuration list for PBXNativeTarget "Text a group" */;
+			buildPhases = (
+				4D7641E21EEB297700197A21 /* Sources */,
+				4D7641E31EEB297700197A21 /* Frameworks */,
+				4D7641E41EEB297700197A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Text a group";
+			productName = "Text a group";
+			productReference = 4D7641E61EEB297700197A21 /* Text a group.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4D7642151EEB2B5600197A21 /* TodayWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7642231EEB2B5600197A21 /* Build configuration list for PBXNativeTarget "TodayWidget" */;
+			buildPhases = (
+				4D7642121EEB2B5600197A21 /* Sources */,
+				4D7642131EEB2B5600197A21 /* Frameworks */,
+				4D7642141EEB2B5600197A21 /* Resources */,
+				4D7642341EEB8D9500197A21 /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayWidget;
+			productName = "Text Group";
+			productReference = 4D7642161EEB2B5600197A21 /* TodayWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4DE403D01EEBB363001570D4 /* TodayWidgetDos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE403DE1EEBB363001570D4 /* Build configuration list for PBXNativeTarget "TodayWidgetDos" */;
+			buildPhases = (
+				4DE403CD1EEBB363001570D4 /* Sources */,
+				4DE403CE1EEBB363001570D4 /* Frameworks */,
+				4DE403CF1EEBB363001570D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayWidgetDos;
+			productName = TodayWidgetDos;
+			productReference = 4DE403D11EEBB363001570D4 /* TodayWidgetDos.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 830;
 				LastUpgradeCheck = 830;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
@@ -741,6 +936,21 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+					4D7641E51EEB297700197A21 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5A3DS4EZ94;
+						ProvisioningStyle = Automatic;
+					};
+					4D7642151EEB2B5600197A21 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5A3DS4EZ94;
+						ProvisioningStyle = Automatic;
+					};
+					4DE403D01EEBB363001570D4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5A3DS4EZ94;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -815,6 +1025,9 @@
 				00E356ED1AD99517003FC87E /* OneTextAppTests */,
 				2D02E47A1E0B4A5D006451C7 /* OneTextApp-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* OneTextApp-tvOSTests */,
+				4D7641E51EEB297700197A21 /* Text a group */,
+				4D7642151EEB2B5600197A21 /* TodayWidget */,
+				4DE403D01EEBB363001570D4 /* TodayWidgetDos */,
 			);
 		};
 /* End PBXProject section */
@@ -1023,6 +1236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9CDDC71EEC4D7000976554 /* TodayWidget.appex in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				1CD3F24D8C48499496AECC73 /* Entypo.ttf in Resources */,
@@ -1053,10 +1267,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D7641E41EEB297700197A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7642141EEB2B5600197A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9CDDF51EEC516600976554 /* OneTextApp.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE403CF1EEBB363001570D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE403D91EEBB363001570D4 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		4D7642341EEB8D9500197A21 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1070,14 +1321,14 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+		4D7642431EEB9ABA00197A21 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Bundle React Native Code And Images";
+			name = "Bundle React Native code and images";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1128,6 +1379,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D7641E21EEB297700197A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7641EB1EEB297700197A21 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7642121EEB2B5600197A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE403691EEBAAF5001570D4 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE403CD1EEBB363001570D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE403D61EEBB363001570D4 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1141,6 +1416,11 @@
 			target = 2D02E47A1E0B4A5D006451C7 /* OneTextApp-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
+		4DE4039F1EEBAC10001570D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7642151EEB2B5600197A21 /* TodayWidget */;
+			targetProxy = 4DE4039E1EEBAC10001570D4 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -1150,6 +1430,14 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		4DE403D71EEBB363001570D4 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE403D81EEBB363001570D4 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1241,6 +1529,7 @@
 					"$(SRCROOT)/../node_modules/react-native-search-bar",
 				);
 				INFOPLIST_FILE = OneTextApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1273,6 +1562,7 @@
 					"$(SRCROOT)/../node_modules/react-native-search-bar",
 				);
 				INFOPLIST_FILE = OneTextApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1417,6 +1707,127 @@
 			};
 			name = Release;
 		};
+		4D7641F31EEB297700197A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5A3DS4EZ94;
+				INFOPLIST_FILE = "Text a group/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.OneTextApp.Text-a-group";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D7641F41EEB297700197A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5A3DS4EZ94;
+				INFOPLIST_FILE = "Text a group/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.OneTextApp.Text-a-group";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4D7642241EEB2B5600197A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5A3DS4EZ94;
+				INFOPLIST_FILE = TodayWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.OneTextApp.TodayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		4D7642251EEB2B5600197A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5A3DS4EZ94;
+				INFOPLIST_FILE = TodayWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.OneTextApp.TodayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		4DE403DF1EEBB363001570D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5A3DS4EZ94;
+				INFOPLIST_FILE = TodayWidgetDos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.OneTextApp.TodayWidgetDos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4DE403E01EEBB363001570D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5A3DS4EZ94;
+				INFOPLIST_FILE = TodayWidgetDos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.OneTextApp.TodayWidgetDos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1536,6 +1947,33 @@
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
 				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7642101EEB297700197A21 /* Build configuration list for PBXNativeTarget "Text a group" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7641F31EEB297700197A21 /* Debug */,
+				4D7641F41EEB297700197A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7642231EEB2B5600197A21 /* Build configuration list for PBXNativeTarget "TodayWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7642241EEB2B5600197A21 /* Debug */,
+				4D7642251EEB2B5600197A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE403DE1EEBB363001570D4 /* Build configuration list for PBXNativeTarget "TodayWidgetDos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE403DF1EEBB363001570D4 /* Debug */,
+				4DE403E01EEBB363001570D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

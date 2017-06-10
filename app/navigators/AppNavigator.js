@@ -2,11 +2,11 @@ import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { addNavigationHelpers, StackNavigator } from 'react-navigation';
 
-import LoginScreen from '../components/LoginScreen';
+import Landing from '../components/Landing';
 import MainScreen from '../components/MainScreen';
 
 export const AppNavigator = StackNavigator({
-  Login: { screen: LoginScreen },
+  Login: { screen: Landing },
   Main: { screen: MainScreen },
 });
 

@@ -14,8 +14,8 @@ import Contacts from 'react-native-unified-contacts';
 
 import _, { filter } from 'lodash';
 import * as groupsActions from '../actions/groups';
-import { orange, shadedOrange } from '../helpers/colors';
-import { LIST_STYLE } from '../helpers/constants';
+import { orange, shadedOrange } from '../constants/colors';
+import { LIST_STYLE } from '../constants';
 import { listStyles } from '../stylesheets/list';
 import { getObjectsIds, getANumber } from '../helpers/library';
 

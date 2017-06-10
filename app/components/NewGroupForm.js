@@ -11,9 +11,9 @@ import { filter } from 'lodash';
 import { StyleSheet, View, Text, Modal } from 'react-native';
 import { FormLabel, FormInput, Button } from 'react-native-elements';
 
-import { orange } from '../helpers/colors';
+import { orange } from '../constants/colors';
 import { groupContactsList, arrayOfObjects } from '../helpers/library';
-import ModalHeader from '../helpers/ModalHeader';
+import ModalHeader from './ModalHeader';
 import ContactsList from './ContactsList';
 
 class NewGroup extends Component {

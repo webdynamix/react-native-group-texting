@@ -1,28 +1,34 @@
-/*
-  #! not really a Splash Screen. This is a landing Screen width a
-     background image and signup/login options.
-  todo: create a separate constants file to configure
-  colors, fonts, ...
-*/
 import React, { PropTypes } from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import {
+  StyleSheet, Text, View, Image } from 'react-native';
 
 import FbLogin from './FbLogin';
+import EmailLogin from './EmailLogin';
 
-const Splash = ({ navigation }) => (
+const bgimage = '';
+
+const Landing = ({ navigation }) => (
   <View style={styles.container}>
     <Image source={require('../images/splash3.jpg')} style={styles.backgroundImage}>
       <View style={styles.logoContainer}>
         <Image source={require('../images/oneapp.png')} style={styles.logo} />
       </View>
       <View style={styles.loginContainer}>
-        <FbLogin onLoginSuccess={() => navigation.dispatch({ type: 'Login' })} />
-
-        <Text style={styles.loginText}>Have an Account? Log In</Text>
+        <FbLogin />
+        <EmailLogin />
+        <Text style={styles.loginText} onPress={() => alert('Login with Facebook')}>Have an Account? Log In</Text>
       </View>
     </Image>
   </View>
 );
+
+Landing.propTypes = {
+  navigation: PropTypes.object.isRequired,
+};
+
+Landing.navigationOptions = {
+  header: null,
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -34,7 +40,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 50,
+    marginTop: 100,
   },
   welcome: {
     fontSize: 20,
@@ -57,8 +63,8 @@ const styles = StyleSheet.create({
   },
   loginContainer: {
     alignItems: 'center',
-    marginBottom: 50,
+    marginBottom: 20,
   },
 });
 
-export default Splash;
+export default Landing;

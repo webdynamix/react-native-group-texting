@@ -2,12 +2,10 @@ import React, { Component } from 'react';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
-import { firebaseConfig } from '../constants';
+import { firebaseConfig } from '../constants/config';
 import firebase from "firebase";
 import reducers from '../reducers';
 import AppNavigator from '../navigators/AppNavigator';
-
-import Splash from '../components/Splash';
 
 export default class App extends Component {
   constructor(props) {

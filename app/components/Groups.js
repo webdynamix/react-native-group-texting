@@ -19,15 +19,16 @@ import { Icon, Badge } from 'react-native-elements';
 import Swipeout from 'react-native-swipeout'
 import Search from 'react-native-search-box';
 
-import { red, green, orange, shadedOrange, white } from '../helpers/colors';
-import { DeleteIcon, TextIcon, AddIcon } from '../helpers/Icons';
+import { red, green, orange, shadedOrange, white } from '../constants/colors';
 import { getContacts, getContactsNames, arrayOfObjects } from '../helpers/library';
-import Separator from '../helpers/Separator';
+import { filterSearchByName } from '../helpers/search';
 import { sendMessage } from '../helpers/compose';
-import ModalHeader from '../helpers/ModalHeader';
+import ModalHeader from './ModalHeader';
+import { DeleteIcon, TextIcon, AddIcon } from './Icons';
+import Separator from './Separator';
 import NewGroupForm from './NewGroupForm';
 
-class Messaging extends Component {
+class Groups extends Component {
   constructor(props) {
       super(props);
 
@@ -148,20 +149,12 @@ class Messaging extends Component {
     );
   }
 
-  filterSearch(searchText, data) {
-    const text = searchText.toLowerCase();
-    return filter(data, (i) => {
-      const item = i.name.toLowerCase();
-      return item.search(text) !== -1;
-    });
-  }
-
   setSearchText(value) {
     const originalData = this.props.myGroups;
     const searchText = value;
     this.setState({searchText});
 
-    const filteredData = this.filterSearch(searchText, originalData);
+    const filteredData = filterSearchByName(searchText, originalData);
     this.setState({
       groups: filteredData,
     });
@@ -221,7 +214,7 @@ class Messaging extends Component {
   }
 }
 
-Messaging.navigationOptions = (props) => {
+Groups.navigationOptions = (props) => {
   const { navigation } = props;
   return {
     title: 'Groups',
@@ -274,7 +267,7 @@ const styles = StyleSheet.create({
   }
 });
 
-Messaging.propTypes = {
+Groups.propTypes = {
   actions: PropTypes.object,
   myGroups: PropTypes.object,
   newGroupModalOpen: PropTypes.bool,
@@ -298,4 +291,4 @@ const mapDispatchToProps = (dispatch) => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(Messaging);
+)(Groups);

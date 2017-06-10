@@ -1,6 +1,8 @@
 'use strict';
+import React from 'react';
+import { AppRegistry } from 'react-native';
+import App from './app/components/App';
+import Widget from './app/components/Widget';
 
-import React, { AppRegistry } from 'react-native';
-import OneTextApp from './app/containers/app';
-
-AppRegistry.registerComponent('OneTextApp', () => OneTextApp);
+AppRegistry.registerComponent('OneTextApp', () => App);
+AppRegistry.registerComponent('TodayWidget', () => Widget);

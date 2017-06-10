@@ -7,7 +7,7 @@ import {
 
 import { Icon, TouchableHighlight } from 'react-native-elements';
 
-import { white } from './colors';
+import { white } from '../constants/colors';
 
 const size = 25;
 const dark = '#333333';
